@@ -23,20 +23,6 @@ a:visited {
     font-style: italic;
 }
 
-#shoepic {
-    border-radius: 100%;
-    max-width    : 50%;
-    height       : 178px;
-    transform    : rotate(90deg);
-
-}
-
-#pcpic {
-    border-radius: 100%;
-    max-width    : 50%;
-    height       : 250px;
-}
-
 @media only screen and (max-width: 480px) {
     body {
         background-color: rgb(236, 199, 31);
@@ -64,6 +50,7 @@ a:visited {
         display: none;
     }
 }
+
 /* phone styles */
 @media only screen and (max-width: 540px) {
 
@@ -138,6 +125,20 @@ a:visited {
         background-attachment: fixed;
         height               : 100%;
         width                : 100%;
+    }
+
+    #shoepic {
+        border-radius: 100%;
+        max-width    : 50%;
+        height       : 178px;
+        transform    : rotate(90deg);
+
+    }
+
+    #pcpic {
+        border-radius: 100%;
+        max-width    : 50%;
+        height       : 250px;
     }
 
     p {
