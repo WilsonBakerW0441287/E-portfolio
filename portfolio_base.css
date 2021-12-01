@@ -5,12 +5,13 @@ creation date: 2021/10/06
 last updated: 2021/10/06
 */
 body {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-size: large;
+    background-color: rgb(236, 199, 31);
+    color           : rgb(0, 0, 0);
+    font-family     : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align      : center;
+    font-size       : large;
 }
+
 a {
     color: rgb(0, 255, 0);
 
@@ -28,21 +29,210 @@ a:visited {
 #Quote1 {
     font-style: italic;
 }
+
 #shoepic {
     border-radius: 100%;
-    max-width: 50%;
-    height: 178px;  
-    transform: rotate(90deg);
-    
+    max-width    : 50%;
+    height       : 178px;
+    transform    : rotate(90deg);
+
 }
 
 #pcpic {
     border-radius: 100%;
-    max-width: 50%;
-    height: 250px;
+    max-width    : 50%;
+    height       : 250px;
 }
+
 @media only screen and (max-width: 480px) {
-    body{
-    background-color: rgba(red, green, blue, alpha);
+    body {
+        background-color: rgba(red, green, blue, alpha);
     }
 }
+
+h1,
+h2 {
+    text-align: center;
+}
+
+article img {
+    float : left;
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+a#navicon {
+    display: none;
+}
+
+/* phone styles */
+@media only screen and (max-width: 540px) {
+
+    body {
+        background-color     : white;
+        background-size      : 100%;
+        background-repeat    : repeat-y;
+        background-attachment: fixed;
+        height               : 100%;
+        width                : 100%;
+    }
+
+    p {
+        color: black;
+    }
+
+    article {
+        margin-bottom : 25px;
+        margin-left   : 10px;
+        margin-right  : 10px;
+        display       : flex;
+        clear         : both;
+        flex-direction: column;
+    }
+
+    p {
+        color: purple;
+    }
+
+    #workexp {
+        order: 1;
+    }
+
+    #myWorlExp1 {
+        order: 2;
+    }
+
+    #otherworkexp {
+        order: 6;
+    }
+
+    a#navicon {
+        display: block;
+        float  : left;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    a#navicon:hover+ul,
+    nav ul:hover {
+        display: block;
+    }
+
+    h2 {
+        background-color: rgb(255, 0, 0);
+        font-size       : 125%;
+    }
+
+
+}
+
+/* tablet styles/desktop style */
+@media only screen and (min-width: 541px) {
+
+    body {
+        background-color     : rgb(0, 247, 255);
+        background-size      : 100%;
+        background-repeat    : repeat-y;
+        background-attachment: fixed;
+        height               : 100%;
+        width                : 100%;
+    }
+
+    p {
+        color: black;
+    }
+
+    h2 {
+        background-color: burlywood;
+    }
+
+    .TheResumeGrid {
+        display              : grid;
+        grid-template-rows   : 100px auto auto auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        outline              : 15px blue;
+        column-gap           : 5px;
+    }
+
+    #workexp {
+        grid-column: 1/1;
+        grid-row   : 1/1;
+        border     : 5px dotted green;
+        text-shadow: rgb(181, 211, 181) 2px 2px 1px,
+            rgba(21, 21, 21, 0.66) 5px 5px 25px;
+        background: linear-gradient(255deg, red, blue);
+    }
+
+    #refre {
+        grid-column: 2/2;
+        grid-row   : 1/1;
+        border     : 5px dotted green;
+        background : linear-gradient(to left, red, blue);
+    }
+
+
+
+    #otherworkexp {
+        grid-column: 3/3;
+        grid-row   : 1/1;
+        border     : 5px dotted green;
+        background : linear-gradient(red, blue);
+    }
+
+    #myWorkExp1 {
+        grid-column: 1/2;
+        grid-row   : 2/2;
+        background : linear-gradient(to bottom, rgba(3, 204, 3, 1.0), rgba(255, 166, 0, 0.2));
+    }
+
+    #myWorkExp2 {
+        grid-column: 1/2;
+        grid-row   : 3/3;
+    }
+
+    #myWorkExp3 {
+        grid-column: 1/2;
+        grid-row   : 4/4;
+    }
+
+    #myWorkExp4 {
+        grid-column: 1/2;
+        grid-row   : 5/5;
+    }
+
+    #myWorkExp5 {
+        grid-column: 1/1;
+        grid-row   : 6/6;
+    }
+
+    #experience1 {
+        grid-column: 3/3;
+        grid-row   : 2/2;
+    }
+
+    #exerience2 {
+        grid-column: 3/3;
+        grid-row   : 3/3;
+    }
+
+    #ref1 {
+        grid-column: 2/2;
+        grid-row   : 2/2;
+    }
+
+    #ref3 {
+        grid-column: 2/2;
+        grid-row   : 4/4;
+    }
+
+    #ref2 {
+        grid-column: 2/2;
+        grid-row   : 3/3;
+    }
+}
+
