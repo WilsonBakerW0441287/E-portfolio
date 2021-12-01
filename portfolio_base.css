@@ -4,13 +4,6 @@
 creation date: 2021/10/06
 last updated: 2021/10/06
 */
-body {
-    background-color: rgb(236, 199, 31);
-    color           : rgb(0, 0, 0);
-    font-family     : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align      : center;
-    font-size       : large;
-}
 
 a {
     color: rgb(0, 255, 0);
@@ -46,38 +39,42 @@ a:visited {
 
 @media only screen and (max-width: 480px) {
     body {
-        background-color: rgba(red, green, blue, alpha);
+        background-color: rgb(236, 199, 31);
+        color           : rgb(0, 0, 0);
+        font-family     : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align      : center;
+        font-size       : large;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    article img {
+        float : left;
+        margin: 5px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    a#navicon {
+        display: none;
     }
 }
-
-h1,
-h2 {
-    text-align: center;
-}
-
-article img {
-    float : left;
-    margin: 5px;
-}
-
-footer {
-    text-align: center;
-}
-
-a#navicon {
-    display: none;
-}
-
 /* phone styles */
 @media only screen and (max-width: 540px) {
 
     body {
-        background-color     : white;
-        background-size      : 100%;
-        background-repeat    : repeat-y;
-        background-attachment: fixed;
-        height               : 100%;
-        width                : 100%;
+        height          : 100%;
+        width           : 100%;
+        background-color: rgb(236, 199, 31);
+        color           : rgb(0, 0, 0);
+        font-family     : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align      : center;
+        font-size       : large;
     }
 
     p {
@@ -235,4 +232,3 @@ a#navicon {
         grid-row   : 3/3;
     }
 }
-
