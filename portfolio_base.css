@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*Wilson baker
+creation date: 2021/10/06
+last updated: 2021/10/06
+*/
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+a {
+    color: rgb(0, 255, 0);
+
+    font-size: 150%;
+}
+
+a:hover {
+    text-decoration-line: line-through;
+}
+
+a:visited {
+    text-decoration-line: underline;
+}
+
+#Quote1 {
+    font-style: italic;
+}
+#shoepic {
+    border-radius: 100%;
+    max-width: 50%;
+    height: 178px;  
+    transform: rotate(90deg);
+    
+}
+
+#pcpic {
+    border-radius: 100%;
+    max-width: 50%;
+    height: 250px;
+}
+@media only screen and (max-width: 480px) {
+    body{
+    background-color: rgba(red, green, blue, alpha);
+    }
+}

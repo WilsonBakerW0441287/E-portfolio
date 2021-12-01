@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/*Wilson baker
+creation date: 2021/10/06
+last updated: 2021/10/06
+*/
+
+
+
+body {
+    display: block;
+
+}
+a #navicon{
+    display: block;
+}
+/* phone styles */
+@media only screen and (max-width: 480px) {
+    nav {
+        background-color: white;
+    }
+    section {
+        display: flex;
+    }
+
+    article p {
+        color: blueviolet;
+        background-color: orange;
+    }
+}
+
+/* tablet styles */
+@media only screen and (min-width: 481px) {
+    article p {
+        color: rgb(214, 226, 43);
+        background-color: rgb(255, 0, 179);
+    }
+}
+
+/* desktop styles */
+@media only screen and (min-width: 890px) {
+    body {
+        display: flex;
+        display: -webkit-flex;
+        flex-flow: row wrap;
+        }
+
+        p {
+            color: rgb(187, 253, 88);
+            display: block;
+        }
+
+    #span1{
+        flex: 1 1 200px;
+        background-color: black;
+    }
+    #span2{
+        flex: 1 1 200px;
+        background-color: white;
+    }
+    #span3{
+        background-color: red; 
+    }
+    #span4 {
+        background-color: green;
+    }
+    .smart{
+        flex: 2 2 200px;
+    }
+
+}
