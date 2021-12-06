@@ -33,7 +33,7 @@ body {
         font-family     : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align      : center;
         font-size       : large;
-        display: float;
+        display: flex;
     }
 
     h1,
@@ -102,28 +102,13 @@ body {
         background-attachment: fixed;
         height               : 100%;
         width                : 70%;
-    }
-
-    #shoepic {
-        border-radius: 100%;
-        max-width    : 50%;
-        height       : 178px;
-        transform    : rotate(90deg);
-
-    }
-
-    #pcpic {
-        border-radius: 100%;
-        max-width    : 50%;
-        height       : 250px;
+        align-items: center;
+        text-align: center;
+        align-content: center;
     }
 
     p {
         color: black;
-    }
-
-    h2 {
-        background-color: burlywood;
     }
 
     .TheResumeGrid {
