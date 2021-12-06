@@ -132,6 +132,8 @@ body {
         grid-column: 2/2;
         grid-row   : 1/1;
         border     : 5px dotted green;
+        text-shadow: rgb(181, 211, 181) 2px 2px 1px,
+        rgba(21, 21, 21, 0.66) 5px 5px 25px;
 
     }
 
@@ -139,6 +141,8 @@ body {
         grid-column: 3/3;
         grid-row   : 1/1;
         border     : 5px dotted green;
+        text-shadow: rgb(181, 211, 181) 2px 2px 1px,
+        rgba(21, 21, 21, 0.66) 5px 5px 25px;
 
     }
 
