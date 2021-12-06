@@ -11,7 +11,8 @@ a {
 }
 
 a:hover {
-    text-decoration-line: line-through;
+    text-decoration-line: underline;
+    color: lightblue;
 }
 
 a:visited {
