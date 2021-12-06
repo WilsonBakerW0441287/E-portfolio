@@ -47,9 +47,6 @@ a#navicon {
         clear        : both;
         flex-direction: column;
     }
-    p {
-        color: purple;
-    }
     #workexp{
         order: 1;
     }
@@ -112,14 +109,13 @@ a#navicon {
         border     : 5px dotted green;
         text-shadow: rgb(181, 211, 181) 2px 2px 1px,
             rgba(21, 21, 21, 0.66) 5px 5px 25px;
-        background: linear-gradient(255deg, red, blue);
     }
 
     #refre {
         grid-column: 2/2;
         grid-row   : 1/1;
         border     : 5px dotted green;
-        background : linear-gradient(to left, red, blue);
+
     }
 
 
@@ -128,13 +124,13 @@ a#navicon {
         grid-column: 3/3;
         grid-row   : 1/1;
         border     : 5px dotted green;
-        background : linear-gradient(red, blue);
+
     }
 
     #myWorkExp1 {
         grid-column: 1/2;
         grid-row   : 2/2;
-        background : linear-gradient(to bottom, rgba(3, 204, 3, 1.0), rgba(255, 166, 0, 0.2));
+
     }
 
     #myWorkExp2 {

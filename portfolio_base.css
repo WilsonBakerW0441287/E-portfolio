@@ -110,9 +110,11 @@ a:visited {
 
 /* tablet styles/desktop style */
 @media only screen and (min-width: 541px) {
-
+    html {
+        background-color: lightblue;
+    }
     body {
-        background-color     : rgb(251, 255, 0);
+        background-color     : rgb(222, 155, 243);
         background-size      : 100%;
         background-repeat    : repeat-y;
         background-attachment: fixed;
