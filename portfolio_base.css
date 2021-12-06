@@ -29,6 +29,7 @@ a:visited {
         font-family     : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align      : center;
         font-size       : large;
+        display: float;
     }
 
     h1,
@@ -63,18 +64,6 @@ a:visited {
 
     p {
         color: purple;
-    }
-
-    #workexp {
-        order: 1;
-    }
-
-    #myWorlExp1 {
-        order: 2;
-    }
-
-    #otherworkexp {
-        order: 6;
     }
 
     a#navicon {
