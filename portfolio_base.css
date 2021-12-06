@@ -9,7 +9,9 @@ a {
     color: rgb(0, 0, 0);
     font-size: 150%;
 }
-
+a #navicon {
+    visibility: hidden;
+}
 a:hover {
     text-decoration-line: underline;
     color: lightblue;
@@ -21,9 +23,6 @@ a:visited {
 
 #Quote1 {
     font-style: italic;
-}
-body {
-    width: 70%;
 }
 
 @media only screen and (max-width: 540px) {
@@ -92,8 +91,11 @@ body {
 
 /* tablet styles/desktop style */
 @media only screen and (min-width: 541px) {
+    a #navicon {
+        visibility: hidden;
+    }
     html {
-        background-color: lightblue;
+        background-color: lightgreen;
     }
     body {
         background-color     : rgb(222, 155, 243);
@@ -101,7 +103,7 @@ body {
         background-repeat    : repeat-y;
         background-attachment: fixed;
         height               : 100%;
-        width                : 70%;
+        width                : 100%;
         align-items: center;
         text-align: center;
         align-content: center;
