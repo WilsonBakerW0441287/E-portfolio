@@ -49,3 +49,7 @@ button:hover {
     background-color: #f2f2f2;
     padding         : 20px;
 }
+footer a, footer p{ 
+    font-size: small;
+    
+}
