@@ -4,36 +4,3 @@
 creation date: 2021/10/06
 last updated: 2021/12/01
 */
-
-body {
-    display: block;
-}
-
-
-
-/* phone styles */
-@media only screen and (max-width: 480px) {
-    nav {
-        background-color: white;
-    }
-    section {
-        display: flex;
-    }
-
-    article p {
-        color           : blueviolet;
-        background-color: orange;
-    }
-}
-
-/* tablet/desktop styles */
-@media only screen and (min-width: 481px) {
-    body {
-        background-color: rgb(240, 135, 208);
-    }
-    table {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-}
