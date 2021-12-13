@@ -11,7 +11,7 @@ a {
 }
 
 a #navicon {
-    visibility: hidden;
+    display: none;
 }
 
 a:hover {
@@ -53,6 +53,7 @@ a:visited {
 
     a#navicon {
         display: block;
+        float: left;
     }
 
     p {
@@ -66,24 +67,17 @@ a:visited {
         display       : flex;
         clear         : both;
         flex-direction: column;
+        width:100px;
     }
 
     p {
         color: purple;
     }
 
-    a#navicon {
-        display: block;
-        float  : left;
-    }
-
-    nav ul {
-        display: none;
-    }
-
     a#navicon:hover+ul,
     nav ul:hover {
         display: block;
+        visibility: visible;
     }
 
     h2 {
@@ -92,6 +86,12 @@ a:visited {
     }
     #finalprog {
         width: 75%;
+    }
+    #refre {
+        visibility: hidden;
+    }
+    #otherworkexp {
+        visibility: hidden;
     }
 }
 
