@@ -8,16 +8,21 @@ last updated: 2021/10/06
 a {
     color    : rgb(0, 0, 0);
     font-size: 150%;
+}    
+#navicon {
+    display   : none;
+    visibility: hidden;
 }
 
-a #navicon {
-    display: none;
+/* menu ul {
+    display   : none;
+    visibility: hidden;
 }
 
-a:hover {
+#naivcon:hover {
     text-decoration-line: underline;
     color               : lightblue;
-}
+} */
 
 a:visited {
     text-decoration-line: underline;
@@ -35,6 +40,7 @@ a:visited {
         text-align      : center;
         font-size       : large;
         display         : flex;
+        flex-wrap: wrap;
     }
 
     h1,
@@ -42,54 +48,45 @@ a:visited {
         text-align: center;
     }
 
-    article img {
-        float : left;
-        margin: 5px;
-    }
-
-    footer {
-        text-align: center;
-    }
-
-    a#navicon {
-        display: block;
-        float: left;
-    }
-
     p {
         color: black;
     }
 
     article {
-        margin-bottom : 25px;
-        margin-left   : 10px;
-        margin-right  : 10px;
         display       : flex;
         clear         : both;
         flex-direction: column;
-        width:100px;
+        width         : auto;
     }
 
-    p {
-        color: purple;
-    }
 
-    a#navicon:hover+ul,
-    nav ul:hover {
-        display: block;
+    /* #navicon:hover+menu ul, nav ul:hover
+    #navicon:active+menu ul, nav ul:active
+    {
+        display   : block;
         visibility: visible;
+    } */
+
+
+    img {
+        display: none;
+        visibility: hidden;
     }
+
 
     h2 {
         background-color: rgb(255, 0, 0);
         font-size       : 125%;
     }
+
     #finalprog {
         width: 75%;
     }
+
     #refre {
         visibility: hidden;
     }
+
     #otherworkexp {
         visibility: hidden;
     }
@@ -97,7 +94,17 @@ a:visited {
 
 /* tablet styles/desktop style */
 @media only screen and (min-width: 541px) {
-    a #navicon {
+    menu ul {
+        display   : block;
+        visibility: visible;
+    }
+
+    #navicon {
+        display   : none;
+        visibility: hidden;
+    }
+
+    #navicon {
         visibility: hidden;
     }
 
@@ -118,7 +125,7 @@ a:visited {
     }
 
     p {
-        color: black;
+        color    : black;
         font-size: large;
     }
 
@@ -207,9 +214,22 @@ a:visited {
         grid-column: 2/2;
         grid-row   : 3/3;
     }
-    #Airplane, #nscc {
-       width: 500px;
+
+    #Airplane,
+    #nscc {
+        width: 500px;
     }
 
+    article {
+        align-items  : center;
+        text-align   : center;
+        align-content: center;
+    }
+
+    table {
+        align-items  : center;
+        text-align   : center;
+        align-content: center;
+    }
 
 }
