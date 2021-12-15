@@ -216,15 +216,18 @@ a:visited {
     }
 
     #Airplane,
-    #nscc {
+    #nscc 
+    {
         width: 500px;
     }
+
 
     article {
         align-items  : center;
         text-align   : center;
         align-content: center;
     }
+
 
     table {
         align-items  : center;
