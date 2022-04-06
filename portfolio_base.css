@@ -94,8 +94,10 @@ a:visited {
 
 /* tablet styles/desktop style */
 @media only screen and (min-width: 541px) {
-    menu ul {
-        display   : block;
+
+    nav ul {
+        float: left;
+        display   :contents;
         visibility: visible;
     }
 
@@ -150,6 +152,11 @@ a:visited {
         align-content: center;
     }
 
+    .goals {
+        display: block;
+        flex: auto;
+
+    }
 /*
     .TheResumeGrid {
         display              : grid;
