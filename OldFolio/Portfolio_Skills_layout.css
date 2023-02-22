@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*Wilson baker
+creation date: 2021/10/06
+last updated: 2021/12/01
+*/
+table {
+    visibility: hidden;
+    display   : none;
+}
+
+@media only screen and (max-width: 540px) {
+section #PhoneText {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+#skillSet1 {
+    order: 1;
+}
+
+img {
+    visibility: hidden;
+    display   : none;
+}
+}
+@media only screen and (min-width: 545px) {
+    table {
+        visibility: visible;
+        display   : contents;
+    }
+    img {
+        visibility: visible;
+        display   : block;
+    }
+    #PhoneText {
+        visibility: hidden;
+        display: none;
+    }
+
+
+}
